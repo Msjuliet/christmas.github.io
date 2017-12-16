@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.xmas {
+ height: 100%;
+ width: 100%;
+ position: relative;
+ background: url("http://funkyimg.com/i/2AmNC.jpg") no-repeat 0 0/cover;
+}
+.xmas .xmas-message {
+ position: absolute;
+ left: 25%;
+ top: 20%;
+ z-index: 2;
+ -ms-transform: translate(-50%, -50%);
+ -webkit-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ width: calc(30% - 6rem);
+ height: calc(100% - 12rem);
+ margin: 0 auto;
+ background: url(https://wp-lessons.com/wp-content/uploads/2014/12/merryxmas.png) no-repeat 50% 50% / contain;
+}
+.xmas .from {
+ position: absolute;
+ bottom: 40px;
+ width: 100%;
+ z-index: 3;
+ text-align: center;
+}
+.xmas .from div {
+ font-family: "quimby-mayoral", sans-serif;
+ color: #ffffff;
+ font-size: 40px;
+ margin-bottom: 10px;
+}
+.xmas .from .gc-link {
+ display: inline-block;
+ font-family: "Georgia", sans-serif;
+ font-size: 24px;
+ color: #ffffff;
+ -webkit-transition: 400ms ease;
+ transition: 400ms ease;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.xmas .from .gc-link:hover {
+ color: #e32833;
+}
+.xmas #xmas {
+ width: 100%;
+ height: 100%;
+ position: relative;
+ z-index: 2;
+}
+
+.xmas-text {
+ display: inline-block;
+ position:absolute;
+ left: 9%;
+ top: 38%;
+ font-family: "Georgia", sans-serif;
+ text-align: center;
+ font-size: 22px;
+ color: #fffbfb;
+ -webkit-transition: 400ms ease;
+ transition: 400ms ease;
+ text-decoration: none;
+}
